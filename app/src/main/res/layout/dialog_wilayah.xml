@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:minWidth="500dp"
+	android:padding="10dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Provinsi"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/prov"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Kabupaten / Kota"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/kab"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Kecamatan"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/kec"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Desa / Kelurahan"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/kel"/>
+
+</LinearLayout>
+

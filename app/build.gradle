@@ -20,5 +20,11 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:design:23.4.0'
+	compile 'com.android.support:appcompat-v7:23.4.0'
+	compile 'de.codecrafters.tableview:tableview:2.2.2'
+	
+	compile 'com.loopj.android:android-async-http:+'
+	compile 'org.jsoup:jsoup:1.8.3'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

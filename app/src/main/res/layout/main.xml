@@ -1,11 +1,19 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+	
+	<com.agusibrahim.pemiludb.myTable
+		xmlns:table="http://schemas.android.com/apk/res-auto"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		table:tableView_headerColor="@color/primary"
+		android:id="@+id/tabel"/>
 </LinearLayout>
+
