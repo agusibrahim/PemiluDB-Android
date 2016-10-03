@@ -5,6 +5,10 @@ Melihat Daftar Pemilih Tetap (DPT) dan Pemilih Sementara (DPS) pada pemihan umum
 - Pilih wilayah se Indonesia dengan mudah
 - Filter Nama
 
+### Library Used
+- https://github.com/ISchwarz23/SortableTableView
+- http://loopj.com/android-async-http/
+
 ![image](https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/fr/cp0/e15/q65/14543826_1133389573420620_7387020914081272874_o.jpg?efg=eyJpIjoiYiJ9)
 > Wilayah dapat dipilih dengan mudah
 
